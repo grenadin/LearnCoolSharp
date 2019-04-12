@@ -9,12 +9,8 @@ namespace LearnCoolSharp
         static void Main(string[] args)
         {
 
-            Person me = new Person();
-            me.name = "HARIRAK";
-            me.surname = "SRITHAM";
-            me.age = 41;
-            me.Talk("oh");
-            Console.WriteLine($"{me.age}");
+            TestObject Myobj = new TestObject();
+            Myobj.SomeMethod();
 
             
             
